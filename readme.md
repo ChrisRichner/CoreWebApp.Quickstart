@@ -13,6 +13,7 @@
 - Unit Tests based on [XUnit](https://xunit.github.io/docs/getting-started-dotnet-core.html)
 
 ##Test Drive
+!(Spa)[readme\spa.png]
 - Open CoreWebApp.Quickstart.sln
 - Set CoreWebApp as the startup project
 - Choose CoreWebApp (Kestrel) as your debug configuration. Alternatively you can still use IIS Express for debugging
@@ -21,6 +22,7 @@
 - Start your favorite browser and open http://localhost:5000
 
 ##Login
+!(Spa)[readme\sts.png]
 - Click the *Login With Profile and Access Token* button
 - After the STS MVC Site has loaded click *Register*
 - Provide a valid email (must not exist, but be valid foramtted) and a complex password
@@ -38,6 +40,7 @@
 - Check out the sts configuraton
 
 ##Postman
+!(Spa)[readme\postman.png]
 - Start [Postman](https://www.getpostman.com/)
 - Add a new request Tab
 - Set the request url to *GET* http://localhost:5000/api/v1/Identity
@@ -62,6 +65,7 @@
 - Congrats, you've called the protected API with an Access Token provided by the STS from Postman
 
 ##Swagger
+!(Spa)[readme\swagger.png]
 - Open http://localhost:5000/swagger/ui
 - Open *Identity*
 - Open the *GET /api/v1/Identity* action
