@@ -33,6 +33,34 @@
 - Check out the *Ajax Result*
 - Congrats, you've called the protected API with an Access Token provided by the STS
 
+##Security Token Service (STS)
+- Open http://localhost:5000/.well-known/openid-configuration
+- Check out the sts configuraton
+
+##Postman
+- Start [Postman](https://www.getpostman.com/)
+- Add a new request Tab
+- Set the request url to *GET* http://localhost:5000/api/v1/Identity
+- Switch to Authorization Child Tab
+- Choose *OAuth 2.0* as the value for *Type*
+- Click the orange button *Get New Access Token*
+- Fill in 
+ - Token Name: Code
+ - Auth Url: http://localhost:5000/connect/authorize
+ - Access Token Url: http://localhost:5000/connect/token
+ - Client ID: Postman
+ - Client Secret: secret
+ - Scope: api1
+ - Grant Type: Authorization Code
+- Click orange button *Request Token*
+- STS Login Page pops up
+- Enter your login credentials
+- Click *Login* button
+- Select the new Token in the *Existing Tokens* list
+- Set *Add token to* value to *Header*
+- Click the orange *Use Token* button
+- Congrats, you've called the protected API with an Access Token provided by the STS from Postman
+
 ##Swagger
 - Open http://localhost:5000/swagger/ui
 - Open *Identity*
