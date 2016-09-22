@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IdentityServerWithAspNetIdentity": {
+    "CoreWebApp": {
       "commandName": "Project",
       "launchUrl": "http://localhost:5000",
       "environmentVariables": {
