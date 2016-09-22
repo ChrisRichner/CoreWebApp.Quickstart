@@ -1,7 +1,7 @@
 #Core Web App Quickstart
 
 ##Features
-- AspNetCore 1.0
+- [AspNetCore 1.0](https://docs.asp.net/en/latest/)
     - https Kestrel (uncomment Code for https)
 - Thinktecture IdentityServer4
     - [AspNetIdentity](https://github.com/IdentityServer/IdentityServer4.AspNetIdentity)
@@ -69,7 +69,7 @@
 - You get a 401 response code because you can't call a protected API without an Access Token
 - Click *Authorize* button in the top banner next to *Explore* button
 - Choose *api1* and click *Authorize*
-- The implicit flow takes you the STS Login Page, in case you're already signed in the redirect happens very fast
+- The implicit flow takes you to the STS Login Page, in case you're already signed in the redirect happens very fast
 - Click *Try it out!* Button again
 - This time you get a 200 response code. The response body shows the result returned from the protected API 
 - Congrats, you've called the protected API from the Swagger UI Page with an Access Token provided by the STS
