@@ -5,13 +5,13 @@
   },
 
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.0"
-    },
     "IdentityModel": "2.0.0-rc2",
     "Constants": {
       "target": "project"
+    },
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
     }
   },
 
