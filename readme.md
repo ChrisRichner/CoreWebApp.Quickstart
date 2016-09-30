@@ -14,17 +14,18 @@
 
 ##Test Drive
 
-![Spa](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/spa.PNG?raw=true "Spa")
+![Console](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/console.PNG?raw=true "Console")
 
 - Open CoreWebApp.Quickstart.sln
 - Set CoreWebApp as the startup project
 - Choose CoreWebApp (Kestrel) as your debug configuration. Alternatively you can still use IIS Express for debugging
 - Hit F5 to build and start debugging
 - The console window starts and kestrel serves the API and STS at http://localhost:5000
-- Start your favorite browser and open http://localhost:5000
 
 ##Login
-![Sts](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/STS.PNG?raw=true "Sts")
+![Spa](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/spa.PNG?raw=true "Spa")
+
+- Start your favorite browser and open http://localhost:5000
 - Click the *Login With Profile and Access Token* button
 - After the STS MVC Site has loaded click *Register*
 - Provide a valid email (must not exist, but be valid foramtted) and a complex password
