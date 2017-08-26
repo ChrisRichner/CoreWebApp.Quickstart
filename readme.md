@@ -1,6 +1,6 @@
-#Core Web App Quickstart
+# Core Web App Quickstart
 
-##Features
+## Features
 - [AspNetCore 1.0](https://docs.asp.net/en/latest/)
     - https Kestrel (uncomment Code for https)
 - Thinktecture IdentityServer4
@@ -12,7 +12,7 @@
     - IdentityServer OAuth Integration
 - Unit Tests based on [XUnit](https://xunit.github.io/docs/getting-started-dotnet-core.html)
 
-##Test Drive
+## Test Drive
 
 ![Console](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/console.PNG?raw=true "Console")
 
@@ -22,7 +22,7 @@
 - Hit F5 to build and start debugging
 - The console window starts and kestrel serves the API and STS at http://localhost:5000
 
-##Login
+## Login
 ![Spa](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/spa.PNG?raw=true "Spa")
 
 - Start your favorite browser and open http://localhost:5000
@@ -38,11 +38,11 @@
 - Check out the *Ajax Result*
 - Congrats, you've called the protected API with an Access Token provided by the STS
 
-##Security Token Service (STS)
+## Security Token Service (STS)
 - Open http://localhost:5000/.well-known/openid-configuration
 - Check out the sts configuraton
 
-##Postman
+## Postman
 ![Postman](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/postman.PNG?raw=true "Postman")
 - Start [Postman](https://www.getpostman.com/)
 - Add a new request Tab
@@ -67,7 +67,7 @@
 - Click the orange *Use Token* button
 - Congrats, you've called the protected API with an Access Token provided by the STS from Postman
 
-##Swagger
+## Swagger
 ![Swagger](https://github.com/ChrisRichner/CoreWebApp.Quickstart/blob/master/readme/swagger.PNG?raw=true "Swagger")
 - Open http://localhost:5000/swagger/ui
 - Open *Identity*
